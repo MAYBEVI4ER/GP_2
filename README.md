@@ -19,28 +19,28 @@
 
 ### Amazon (All_added_books_data.csv)
 
-Title - название книги
-Price - цена книги
-Currency - валюта цены
-Raing - рейтинг книги 
-Number of reviews - количество отзывов
-Original Price - цена книги до скидки
-Main Genre - основной жанр/категория товара
+- Title - название книги
+- Price - цена книги
+- Currency - валюта цены
+- Raing - рейтинг книги 
+- Number of reviews - количество отзывов
+- Original Price - цена книги до скидки
+- Main Genre - основной жанр/категория товара
 
 ### Google Books (all_api_books.csv)
 
-Title - название книги в Amazon
-API Title - название книги в сервисе
-Authors - авторы книги
-Publisher - издательство книги
-Published Date - дата издания
-Description - описание книги
-Page Count - количество страниц в книге
-Print Type- тип книги
-Categories - жанры книги
-Average Rating - средний рейтинг google books
-Ratings Count - количество оценок на google books
-Language - язык книги
+- Title - название книги в Amazon
+- API Title - название книги в сервисе
+- Authors - авторы книги
+- Publisher - издательство книги
+- Published Date - дата издания
+- Description - описание книги
+- Page Count - количество страниц в книге
+- Print Type- тип книги
+- Categories - жанры книги
+- Average Rating - средний рейтинг google books
+- Ratings Count - количество оценок на google books
+- Language - язык книги
 
 
 ## Структура проекта
