@@ -1,0 +1,830 @@
+2025-03-05 04:00:33,740 INFO Amazon opened for getting categories
+2025-03-05 04:00:33,760 WARNING Captcha solving started
+2025-03-05 04:00:35,999 INFO Captcha solved
+2025-03-05 04:00:38,220 INFO Setting country started
+2025-03-05 04:00:45,113 INFO Setting country ended
+2025-03-05 04:01:11,450 INFO Getting categories started
+2025-03-05 04:01:11,510 INFO Getting categories ended
+2025-03-05 04:05:58,057 INFO Start() function started
+2025-03-05 04:06:01,773 INFO Setting country started
+2025-03-05 04:06:01,780 ERROR Error appeared while starting driver for Comics & Manga
+Traceback (most recent call last):
+  File "C:\Users\DAN\AppData\Local\Temp\ipykernel_20132\1602714126.py", line 15, in Start
+    SetCountry(driver)
+  File "C:\Users\DAN\AppData\Local\Temp\ipykernel_20132\2640292890.py", line 3, in SetCountry
+    clickable = driver.find_element(By.ID, 'nav-global-location-popover-link')
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DAN\AppData\Roaming\Python\Python312\site-packages\selenium\webdriver\remote\webdriver.py", line 898, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DAN\AppData\Roaming\Python\Python312\site-packages\selenium\webdriver\remote\webdriver.py", line 429, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DAN\AppData\Roaming\Python\Python312\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="nav-global-location-popover-link"]"}
+  (Session info: chrome=133.0.6943.143); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF6035EC6A5+28789]
+	(No symbol) [0x00007FF603555B20]
+	(No symbol) [0x00007FF6033E8F9A]
+	(No symbol) [0x00007FF60343F346]
+	(No symbol) [0x00007FF60343F57C]
+	(No symbol) [0x00007FF603492B17]
+	(No symbol) [0x00007FF60346736F]
+	(No symbol) [0x00007FF60348F7E3]
+	(No symbol) [0x00007FF603467103]
+	(No symbol) [0x00007FF60342FFC0]
+	(No symbol) [0x00007FF603431273]
+	GetHandleVerifier [0x00007FF603931AED+3458237]
+	GetHandleVerifier [0x00007FF60394829C+3550316]
+	GetHandleVerifier [0x00007FF60393DB9D+3507565]
+	GetHandleVerifier [0x00007FF6036B2C6A+841274]
+	(No symbol) [0x00007FF6035609EF]
+	(No symbol) [0x00007FF60355CB34]
+	(No symbol) [0x00007FF60355CCD6]
+	(No symbol) [0x00007FF60354C119]
+	BaseThreadInitThunk [0x00007FFEDA2B257D+29]
+	RtlUserThreadStart [0x00007FFEDC4EAA78+40]
+
+2025-03-05 04:06:01,782 INFO Start() function ended
+2025-03-05 04:06:01,782 INFO Scraping for Comics & Manga started
+2025-03-05 04:06:01,790 WARNING Captcha solving started
+2025-03-05 04:06:33,829 INFO Start() function started
+2025-03-05 04:06:37,625 INFO Setting country started
+2025-03-05 04:06:44,491 INFO Setting country ended
+2025-03-05 04:06:55,598 INFO Start() function ended
+2025-03-05 04:06:55,599 INFO Scraping for Comics & Manga started
+2025-03-05 04:06:55,857 INFO Scraping page 1 for Comics & Manga ended
+2025-03-05 04:06:59,355 INFO Scraping page 2 for Comics & Manga ended
+2025-03-05 04:07:02,739 INFO Scraping page 3 for Comics & Manga ended
+2025-03-05 04:07:06,118 INFO Scraping page 4 for Comics & Manga ended
+2025-03-05 04:07:09,507 INFO Scraping page 5 for Comics & Manga ended
+2025-03-05 04:07:12,916 INFO Scraping page 6 for Comics & Manga ended
+2025-03-05 04:07:16,432 INFO Scraping page 7 for Comics & Manga ended
+2025-03-05 04:07:19,796 INFO Scraping page 8 for Comics & Manga ended
+2025-03-05 04:07:23,161 INFO Scraping page 9 for Comics & Manga ended
+2025-03-05 04:07:26,576 INFO Scraping page 10 for Comics & Manga ended
+2025-03-05 04:07:30,087 INFO Scraping page 11 for Comics & Manga ended
+2025-03-05 04:07:33,469 INFO Scraping page 12 for Comics & Manga ended
+2025-03-05 04:07:36,877 INFO Scraping page 13 for Comics & Manga ended
+2025-03-05 04:07:40,255 INFO Scraping page 14 for Comics & Manga ended
+2025-03-05 04:07:43,659 INFO Scraping page 15 for Comics & Manga ended
+2025-03-05 04:07:47,176 INFO Scraping page 16 for Comics & Manga ended
+2025-03-05 04:07:50,548 INFO Scraping page 17 for Comics & Manga ended
+2025-03-05 04:07:53,950 INFO Scraping page 18 for Comics & Manga ended
+2025-03-05 04:07:57,348 INFO Scraping page 19 for Comics & Manga ended
+2025-03-05 04:08:00,877 INFO Scraping page 20 for Comics & Manga ended
+2025-03-05 04:08:04,267 INFO Scraping page 21 for Comics & Manga ended
+2025-03-05 04:08:07,648 INFO Scraping page 22 for Comics & Manga ended
+2025-03-05 04:08:11,018 INFO Scraping page 23 for Comics & Manga ended
+2025-03-05 04:08:14,415 INFO Scraping page 24 for Comics & Manga ended
+2025-03-05 04:08:17,918 INFO Scraping page 25 for Comics & Manga ended
+2025-03-05 04:08:21,309 INFO Scraping page 26 for Comics & Manga ended
+2025-03-05 04:08:24,737 INFO Scraping page 27 for Comics & Manga ended
+2025-03-05 04:08:28,156 INFO Scraping page 28 for Comics & Manga ended
+2025-03-05 04:08:31,690 INFO Scraping page 29 for Comics & Manga ended
+2025-03-05 04:08:35,082 INFO Scraping page 30 for Comics & Manga ended
+2025-03-05 04:08:38,502 INFO Scraping page 31 for Comics & Manga ended
+2025-03-05 04:08:41,937 INFO Scraping page 32 for Comics & Manga ended
+2025-03-05 04:08:45,469 INFO Scraping page 33 for Comics & Manga ended
+2025-03-05 04:08:48,892 INFO Scraping page 34 for Comics & Manga ended
+2025-03-05 04:08:52,327 INFO Scraping page 35 for Comics & Manga ended
+2025-03-05 04:08:55,736 INFO Scraping page 36 for Comics & Manga ended
+2025-03-05 04:08:59,166 INFO Scraping page 37 for Comics & Manga ended
+2025-03-05 04:09:02,703 INFO Scraping page 38 for Comics & Manga ended
+2025-03-05 04:09:06,115 INFO Scraping page 39 for Comics & Manga ended
+2025-03-05 04:09:09,567 INFO Scraping page 40 for Comics & Manga ended
+2025-03-05 04:09:13,155 INFO Scraping page 41 for Comics & Manga ended
+2025-03-05 04:09:16,709 INFO Scraping page 42 for Comics & Manga ended
+2025-03-05 04:09:20,134 INFO Scraping page 43 for Comics & Manga ended
+2025-03-05 04:09:23,571 INFO Scraping page 44 for Comics & Manga ended
+2025-03-05 04:09:27,049 INFO Scraping page 45 for Comics & Manga ended
+2025-03-05 04:09:30,620 INFO Scraping page 46 for Comics & Manga ended
+2025-03-05 04:09:34,086 INFO Scraping page 47 for Comics & Manga ended
+2025-03-05 04:09:37,564 INFO Scraping page 48 for Comics & Manga ended
+2025-03-05 04:09:41,178 INFO Scraping page 49 for Comics & Manga ended
+2025-03-05 04:09:44,675 INFO Scraping page 50 for Comics & Manga ended
+2025-03-05 04:09:48,181 INFO Scraping page 51 for Comics & Manga ended
+2025-03-05 04:09:51,669 INFO Scraping page 52 for Comics & Manga ended
+2025-03-05 04:09:55,160 INFO Scraping page 53 for Comics & Manga ended
+2025-03-05 04:09:58,783 INFO Scraping page 54 for Comics & Manga ended
+2025-03-05 04:10:02,294 INFO Scraping page 55 for Comics & Manga ended
+2025-03-05 04:10:05,778 INFO Scraping page 56 for Comics & Manga ended
+2025-03-05 04:10:09,248 INFO Scraping page 57 for Comics & Manga ended
+2025-03-05 04:10:12,879 INFO Scraping page 58 for Comics & Manga ended
+2025-03-05 04:10:16,422 INFO Scraping page 59 for Comics & Manga ended
+2025-03-05 04:10:19,940 INFO Scraping page 60 for Comics & Manga ended
+2025-03-05 04:10:23,622 INFO Scraping page 61 for Comics & Manga ended
+2025-03-05 04:10:27,154 INFO Scraping page 62 for Comics & Manga ended
+2025-03-05 04:10:30,677 INFO Scraping page 63 for Comics & Manga ended
+2025-03-05 04:10:34,180 INFO Scraping page 64 for Comics & Manga ended
+2025-03-05 04:10:37,836 INFO Scraping page 65 for Comics & Manga ended
+2025-03-05 04:10:41,367 INFO Scraping page 66 for Comics & Manga ended
+2025-03-05 04:10:44,883 INFO Scraping page 67 for Comics & Manga ended
+2025-03-05 04:10:48,409 INFO Scraping page 68 for Comics & Manga ended
+2025-03-05 04:10:52,059 INFO Scraping page 69 for Comics & Manga ended
+2025-03-05 04:10:55,541 INFO Scraping page 70 for Comics & Manga ended
+2025-03-05 04:10:59,047 INFO Scraping page 71 for Comics & Manga ended
+2025-03-05 04:11:02,562 INFO Scraping page 72 for Comics & Manga ended
+2025-03-05 04:11:06,068 INFO Scraping page 73 for Comics & Manga ended
+2025-03-05 04:11:09,759 INFO Scraping page 74 for Comics & Manga ended
+2025-03-05 04:11:13,282 INFO Scraping page 75 for Comics & Manga ended
+2025-03-05 04:11:16,764 INFO Scraping page 76 for Comics & Manga ended
+2025-03-05 04:11:16,786 INFO Page 76 is the last available page for Comics & Manga
+2025-03-05 04:11:16,798 ERROR Error appeared while scraping page 76 for Comics & Manga
+Traceback (most recent call last):
+  File "C:\Users\DAN\AppData\Local\Temp\ipykernel_20132\1387982281.py", line 50, in Scrape
+    driver.find_elements(By.CLASS_NAME, 's-list-item-margin-right-adjustment')[-1].click()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^
+IndexError: list index out of range
+2025-03-05 04:11:19,490 INFO Data for Comics & Manga category added to All_added_books_data_temp.csv
+2025-03-05 04:11:19,543 INFO Start() function started
+2025-03-05 04:11:23,495 INFO Setting country started
+2025-03-05 04:11:30,364 INFO Setting country ended
+2025-03-05 04:11:41,828 INFO Start() function ended
+2025-03-05 04:11:41,828 INFO Scraping for Medical Books started
+2025-03-05 04:11:42,073 INFO Scraping page 1 for Medical Books ended
+2025-03-05 04:11:49,663 INFO Scraping page 2 for Medical Books ended
+2025-03-05 04:11:52,966 INFO Scraping page 3 for Medical Books ended
+2025-03-05 04:11:56,284 INFO Scraping page 4 for Medical Books ended
+2025-03-05 04:11:59,587 INFO Scraping page 5 for Medical Books ended
+2025-03-05 04:12:03,032 INFO Scraping page 6 for Medical Books ended
+2025-03-05 04:12:06,361 INFO Scraping page 7 for Medical Books ended
+2025-03-05 04:12:09,677 INFO Scraping page 8 for Medical Books ended
+2025-03-05 04:12:13,008 INFO Scraping page 9 for Medical Books ended
+2025-03-05 04:12:16,343 INFO Scraping page 10 for Medical Books ended
+2025-03-05 04:12:19,821 INFO Scraping page 11 for Medical Books ended
+2025-03-05 04:12:23,145 INFO Scraping page 12 for Medical Books ended
+2025-03-05 04:12:26,476 INFO Scraping page 13 for Medical Books ended
+2025-03-05 04:12:29,795 INFO Scraping page 14 for Medical Books ended
+2025-03-05 04:12:33,232 INFO Scraping page 15 for Medical Books ended
+2025-03-05 04:12:36,564 INFO Scraping page 16 for Medical Books ended
+2025-03-05 04:12:39,880 INFO Scraping page 17 for Medical Books ended
+2025-03-05 04:12:43,215 INFO Scraping page 18 for Medical Books ended
+2025-03-05 04:12:46,582 INFO Scraping page 19 for Medical Books ended
+2025-03-05 04:12:50,091 INFO Scraping page 20 for Medical Books ended
+2025-03-05 04:12:53,450 INFO Scraping page 21 for Medical Books ended
+2025-03-05 04:12:56,832 INFO Scraping page 22 for Medical Books ended
+2025-03-05 04:13:00,208 INFO Scraping page 23 for Medical Books ended
+2025-03-05 04:13:03,715 INFO Scraping page 24 for Medical Books ended
+2025-03-05 04:13:07,102 INFO Scraping page 25 for Medical Books ended
+2025-03-05 04:13:10,457 INFO Scraping page 26 for Medical Books ended
+2025-03-05 04:13:13,829 INFO Scraping page 27 for Medical Books ended
+2025-03-05 04:13:17,203 INFO Scraping page 28 for Medical Books ended
+2025-03-05 04:13:20,734 INFO Scraping page 29 for Medical Books ended
+2025-03-05 04:13:24,116 INFO Scraping page 30 for Medical Books ended
+2025-03-05 04:13:27,515 INFO Scraping page 31 for Medical Books ended
+2025-03-05 04:13:30,935 INFO Scraping page 32 for Medical Books ended
+2025-03-05 04:13:34,489 INFO Scraping page 33 for Medical Books ended
+2025-03-05 04:13:37,840 INFO Scraping page 34 for Medical Books ended
+2025-03-05 04:13:41,201 INFO Scraping page 35 for Medical Books ended
+2025-03-05 04:13:44,572 INFO Scraping page 36 for Medical Books ended
+2025-03-05 04:13:47,956 INFO Scraping page 37 for Medical Books ended
+2025-03-05 04:13:51,501 INFO Scraping page 38 for Medical Books ended
+2025-03-05 04:13:54,916 INFO Scraping page 39 for Medical Books ended
+2025-03-05 04:13:58,315 INFO Scraping page 40 for Medical Books ended
+2025-03-05 04:14:01,719 INFO Scraping page 41 for Medical Books ended
+2025-03-05 04:14:05,253 INFO Scraping page 42 for Medical Books ended
+2025-03-05 04:14:08,662 INFO Scraping page 43 for Medical Books ended
+2025-03-05 04:14:12,069 INFO Scraping page 44 for Medical Books ended
+2025-03-05 04:14:15,451 INFO Scraping page 45 for Medical Books ended
+2025-03-05 04:14:18,979 INFO Scraping page 46 for Medical Books ended
+2025-03-05 04:14:22,430 INFO Scraping page 47 for Medical Books ended
+2025-03-05 04:14:25,842 INFO Scraping page 48 for Medical Books ended
+2025-03-05 04:14:29,244 INFO Scraping page 49 for Medical Books ended
+2025-03-05 04:14:32,655 INFO Scraping page 50 for Medical Books ended
+2025-03-05 04:14:36,144 INFO Scraping page 51 for Medical Books ended
+2025-03-05 04:14:36,152 INFO Page 51 is the last available page for Medical Books
+2025-03-05 04:14:36,161 ERROR Error appeared while scraping page 51 for Medical Books
+Traceback (most recent call last):
+  File "C:\Users\DAN\AppData\Local\Temp\ipykernel_20132\1387982281.py", line 50, in Scrape
+    driver.find_elements(By.CLASS_NAME, 's-list-item-margin-right-adjustment')[-1].click()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^
+IndexError: list index out of range
+2025-03-05 04:14:38,617 INFO Data for Medical Books category added to All_added_books_data_temp.csv
+2025-03-05 04:14:38,617 INFO Start() function started
+2025-03-05 04:14:42,591 INFO Setting country started
+2025-03-05 04:14:49,479 INFO Setting country ended
+2025-03-05 04:15:00,691 INFO Start() function ended
+2025-03-05 04:15:00,691 INFO Scraping for Parenting & Relationships started
+2025-03-05 04:15:00,952 INFO Scraping page 1 for Parenting & Relationships ended
+2025-03-05 04:15:04,304 INFO Scraping page 2 for Parenting & Relationships ended
+2025-03-05 04:15:07,640 INFO Scraping page 3 for Parenting & Relationships ended
+2025-03-05 04:15:10,971 INFO Scraping page 4 for Parenting & Relationships ended
+2025-03-05 04:15:18,524 INFO Scraping page 5 for Parenting & Relationships ended
+2025-03-05 04:15:21,860 INFO Scraping page 6 for Parenting & Relationships ended
+2025-03-05 04:15:25,208 INFO Scraping page 7 for Parenting & Relationships ended
+2025-03-05 04:15:28,569 INFO Scraping page 8 for Parenting & Relationships ended
+2025-03-05 04:15:31,928 INFO Scraping page 9 for Parenting & Relationships ended
+2025-03-05 04:15:35,418 INFO Scraping page 10 for Parenting & Relationships ended
+2025-03-05 04:15:38,786 INFO Scraping page 11 for Parenting & Relationships ended
+2025-03-05 04:15:42,154 INFO Scraping page 12 for Parenting & Relationships ended
+2025-03-05 04:15:45,525 INFO Scraping page 13 for Parenting & Relationships ended
+2025-03-05 04:15:48,882 INFO Scraping page 14 for Parenting & Relationships ended
+2025-03-05 04:15:52,377 INFO Scraping page 15 for Parenting & Relationships ended
+2025-03-05 04:15:55,738 INFO Scraping page 16 for Parenting & Relationships ended
+2025-03-05 04:15:59,104 INFO Scraping page 17 for Parenting & Relationships ended
+2025-03-05 04:16:02,460 INFO Scraping page 18 for Parenting & Relationships ended
+2025-03-05 04:16:05,985 INFO Scraping page 19 for Parenting & Relationships ended
+2025-03-05 04:16:09,388 INFO Scraping page 20 for Parenting & Relationships ended
+2025-03-05 04:16:12,779 INFO Scraping page 21 for Parenting & Relationships ended
+2025-03-05 04:16:16,165 INFO Scraping page 22 for Parenting & Relationships ended
+2025-03-05 04:16:19,560 INFO Scraping page 23 for Parenting & Relationships ended
+2025-03-05 04:16:23,161 INFO Scraping page 24 for Parenting & Relationships ended
+2025-03-05 04:16:26,550 INFO Scraping page 25 for Parenting & Relationships ended
+2025-03-05 04:16:29,940 INFO Scraping page 26 for Parenting & Relationships ended
+2025-03-05 04:16:33,337 INFO Scraping page 27 for Parenting & Relationships ended
+2025-03-05 04:16:36,725 INFO Scraping page 28 for Parenting & Relationships ended
+2025-03-05 04:16:40,246 INFO Scraping page 29 for Parenting & Relationships ended
+2025-03-05 04:16:43,647 INFO Scraping page 30 for Parenting & Relationships ended
+2025-03-05 04:16:47,021 INFO Scraping page 31 for Parenting & Relationships ended
+2025-03-05 04:16:50,404 INFO Scraping page 32 for Parenting & Relationships ended
+2025-03-05 04:16:53,930 INFO Scraping page 33 for Parenting & Relationships ended
+2025-03-05 04:16:57,322 INFO Scraping page 34 for Parenting & Relationships ended
+2025-03-05 04:17:00,746 INFO Scraping page 35 for Parenting & Relationships ended
+2025-03-05 04:17:04,147 INFO Scraping page 36 for Parenting & Relationships ended
+2025-03-05 04:17:07,552 INFO Scraping page 37 for Parenting & Relationships ended
+2025-03-05 04:17:11,105 INFO Scraping page 38 for Parenting & Relationships ended
+2025-03-05 04:17:14,491 INFO Scraping page 39 for Parenting & Relationships ended
+2025-03-05 04:17:17,878 INFO Scraping page 40 for Parenting & Relationships ended
+2025-03-05 04:17:21,286 INFO Scraping page 41 for Parenting & Relationships ended
+2025-03-05 04:17:24,675 INFO Scraping page 42 for Parenting & Relationships ended
+2025-03-05 04:17:28,249 INFO Scraping page 43 for Parenting & Relationships ended
+2025-03-05 04:17:31,684 INFO Scraping page 44 for Parenting & Relationships ended
+2025-03-05 04:17:35,101 INFO Scraping page 45 for Parenting & Relationships ended
+2025-03-05 04:17:38,529 INFO Scraping page 46 for Parenting & Relationships ended
+2025-03-05 04:17:42,069 INFO Scraping page 47 for Parenting & Relationships ended
+2025-03-05 04:17:45,549 INFO Scraping page 48 for Parenting & Relationships ended
+2025-03-05 04:17:48,967 INFO Scraping page 49 for Parenting & Relationships ended
+2025-03-05 04:17:52,377 INFO Scraping page 50 for Parenting & Relationships ended
+2025-03-05 04:17:55,774 INFO Scraping page 51 for Parenting & Relationships ended
+2025-03-05 04:17:59,389 INFO Scraping page 52 for Parenting & Relationships ended
+2025-03-05 04:18:02,887 INFO Scraping page 53 for Parenting & Relationships ended
+2025-03-05 04:18:06,345 INFO Scraping page 54 for Parenting & Relationships ended
+2025-03-05 04:18:09,821 INFO Scraping page 55 for Parenting & Relationships ended
+2025-03-05 04:18:13,494 INFO Scraping page 56 for Parenting & Relationships ended
+2025-03-05 04:18:16,983 INFO Scraping page 57 for Parenting & Relationships ended
+2025-03-05 04:18:20,459 INFO Scraping page 58 for Parenting & Relationships ended
+2025-03-05 04:18:23,958 INFO Scraping page 59 for Parenting & Relationships ended
+2025-03-05 04:18:27,426 INFO Scraping page 60 for Parenting & Relationships ended
+2025-03-05 04:18:31,058 INFO Scraping page 61 for Parenting & Relationships ended
+2025-03-05 04:18:34,512 INFO Scraping page 62 for Parenting & Relationships ended
+2025-03-05 04:18:38,085 INFO Scraping page 63 for Parenting & Relationships ended
+2025-03-05 04:18:41,605 INFO Scraping page 64 for Parenting & Relationships ended
+2025-03-05 04:18:45,265 INFO Scraping page 65 for Parenting & Relationships ended
+2025-03-05 04:18:48,770 INFO Scraping page 66 for Parenting & Relationships ended
+2025-03-05 04:18:52,259 INFO Scraping page 67 for Parenting & Relationships ended
+2025-03-05 04:18:55,774 INFO Scraping page 68 for Parenting & Relationships ended
+2025-03-05 04:18:59,279 INFO Scraping page 69 for Parenting & Relationships ended
+2025-03-05 04:19:02,934 INFO Scraping page 70 for Parenting & Relationships ended
+2025-03-05 04:19:06,428 INFO Scraping page 71 for Parenting & Relationships ended
+2025-03-05 04:19:09,924 INFO Scraping page 72 for Parenting & Relationships ended
+2025-03-05 04:19:13,414 INFO Scraping page 73 for Parenting & Relationships ended
+2025-03-05 04:19:17,031 INFO Scraping page 74 for Parenting & Relationships ended
+2025-03-05 04:19:20,485 INFO Scraping page 75 for Parenting & Relationships ended
+2025-03-05 04:19:23,874 INFO Scraping page 76 for Parenting & Relationships ended
+2025-03-05 04:19:23,893 INFO Page 76 is the last available page for Parenting & Relationships
+2025-03-05 04:19:23,904 ERROR Error appeared while scraping page 76 for Parenting & Relationships
+Traceback (most recent call last):
+  File "C:\Users\DAN\AppData\Local\Temp\ipykernel_20132\1387982281.py", line 50, in Scrape
+    driver.find_elements(By.CLASS_NAME, 's-list-item-margin-right-adjustment')[-1].click()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^
+IndexError: list index out of range
+2025-03-05 04:19:26,330 INFO Data for Parenting & Relationships category added to All_added_books_data_temp.csv
+2025-03-05 04:19:26,330 INFO Start() function started
+2025-03-05 04:19:30,227 INFO Setting country started
+2025-03-05 04:19:37,111 INFO Setting country ended
+2025-03-05 04:19:48,455 INFO Start() function ended
+2025-03-05 04:19:48,455 INFO Scraping for Politics & Social Sciences started
+2025-03-05 04:19:48,692 INFO Scraping page 1 for Politics & Social Sciences ended
+2025-03-05 04:19:52,018 INFO Scraping page 2 for Politics & Social Sciences ended
+2025-03-05 04:19:59,570 INFO Scraping page 3 for Politics & Social Sciences ended
+2025-03-05 04:20:02,865 INFO Scraping page 4 for Politics & Social Sciences ended
+2025-03-05 04:20:06,154 INFO Scraping page 5 for Politics & Social Sciences ended
+2025-03-05 04:20:09,465 INFO Scraping page 6 for Politics & Social Sciences ended
+2025-03-05 04:20:12,773 INFO Scraping page 7 for Politics & Social Sciences ended
+2025-03-05 04:20:16,225 INFO Scraping page 8 for Politics & Social Sciences ended
+2025-03-05 04:20:19,539 INFO Scraping page 9 for Politics & Social Sciences ended
+2025-03-05 04:20:22,847 INFO Scraping page 10 for Politics & Social Sciences ended
+2025-03-05 04:20:26,163 INFO Scraping page 11 for Politics & Social Sciences ended
+2025-03-05 04:20:29,498 INFO Scraping page 12 for Politics & Social Sciences ended
+2025-03-05 04:20:32,951 INFO Scraping page 13 for Politics & Social Sciences ended
+2025-03-05 04:20:36,263 INFO Scraping page 14 for Politics & Social Sciences ended
+2025-03-05 04:20:39,568 INFO Scraping page 15 for Politics & Social Sciences ended
+2025-03-05 04:20:42,880 INFO Scraping page 16 for Politics & Social Sciences ended
+2025-03-05 04:20:46,234 INFO Scraping page 17 for Politics & Social Sciences ended
+2025-03-05 04:20:49,699 INFO Scraping page 18 for Politics & Social Sciences ended
+2025-03-05 04:20:53,059 INFO Scraping page 19 for Politics & Social Sciences ended
+2025-03-05 04:20:56,379 INFO Scraping page 20 for Politics & Social Sciences ended
+2025-03-05 04:20:59,700 INFO Scraping page 21 for Politics & Social Sciences ended
+2025-03-05 04:21:03,041 INFO Scraping page 22 for Politics & Social Sciences ended
+2025-03-05 04:21:06,530 INFO Scraping page 23 for Politics & Social Sciences ended
+2025-03-05 04:21:09,886 INFO Scraping page 24 for Politics & Social Sciences ended
+2025-03-05 04:21:13,241 INFO Scraping page 25 for Politics & Social Sciences ended
+2025-03-05 04:21:16,616 INFO Scraping page 26 for Politics & Social Sciences ended
+2025-03-05 04:21:19,959 INFO Scraping page 27 for Politics & Social Sciences ended
+2025-03-05 04:21:23,501 INFO Scraping page 28 for Politics & Social Sciences ended
+2025-03-05 04:21:26,891 INFO Scraping page 29 for Politics & Social Sciences ended
+2025-03-05 04:21:30,276 INFO Scraping page 30 for Politics & Social Sciences ended
+2025-03-05 04:21:33,653 INFO Scraping page 31 for Politics & Social Sciences ended
+2025-03-05 04:21:37,029 INFO Scraping page 32 for Politics & Social Sciences ended
+2025-03-05 04:21:40,530 INFO Scraping page 33 for Politics & Social Sciences ended
+2025-03-05 04:21:43,903 INFO Scraping page 34 for Politics & Social Sciences ended
+2025-03-05 04:21:47,271 INFO Scraping page 35 for Politics & Social Sciences ended
+2025-03-05 04:21:50,629 INFO Scraping page 36 for Politics & Social Sciences ended
+2025-03-05 04:21:53,998 INFO Scraping page 37 for Politics & Social Sciences ended
+2025-03-05 04:21:57,507 INFO Scraping page 38 for Politics & Social Sciences ended
+2025-03-05 04:22:00,887 INFO Scraping page 39 for Politics & Social Sciences ended
+2025-03-05 04:22:04,251 INFO Scraping page 40 for Politics & Social Sciences ended
+2025-03-05 04:22:07,636 INFO Scraping page 41 for Politics & Social Sciences ended
+2025-03-05 04:22:11,194 INFO Scraping page 42 for Politics & Social Sciences ended
+2025-03-05 04:22:14,591 INFO Scraping page 43 for Politics & Social Sciences ended
+2025-03-05 04:22:17,971 INFO Scraping page 44 for Politics & Social Sciences ended
+2025-03-05 04:22:21,324 INFO Scraping page 45 for Politics & Social Sciences ended
+2025-03-05 04:22:24,696 INFO Scraping page 46 for Politics & Social Sciences ended
+2025-03-05 04:22:28,228 INFO Scraping page 47 for Politics & Social Sciences ended
+2025-03-05 04:22:31,606 INFO Scraping page 48 for Politics & Social Sciences ended
+2025-03-05 04:22:34,978 INFO Scraping page 49 for Politics & Social Sciences ended
+2025-03-05 04:22:38,336 INFO Scraping page 50 for Politics & Social Sciences ended
+2025-03-05 04:22:41,693 INFO Scraping page 51 for Politics & Social Sciences ended
+2025-03-05 04:22:45,215 INFO Scraping page 52 for Politics & Social Sciences ended
+2025-03-05 04:22:48,611 INFO Scraping page 53 for Politics & Social Sciences ended
+2025-03-05 04:22:51,996 INFO Scraping page 54 for Politics & Social Sciences ended
+2025-03-05 04:22:55,380 INFO Scraping page 55 for Politics & Social Sciences ended
+2025-03-05 04:22:58,760 INFO Scraping page 56 for Politics & Social Sciences ended
+2025-03-05 04:23:02,280 INFO Scraping page 57 for Politics & Social Sciences ended
+2025-03-05 04:23:05,658 INFO Scraping page 58 for Politics & Social Sciences ended
+2025-03-05 04:23:09,038 INFO Scraping page 59 for Politics & Social Sciences ended
+2025-03-05 04:23:12,470 INFO Scraping page 60 for Politics & Social Sciences ended
+2025-03-05 04:23:15,857 INFO Scraping page 61 for Politics & Social Sciences ended
+2025-03-05 04:23:19,408 INFO Scraping page 62 for Politics & Social Sciences ended
+2025-03-05 04:23:22,781 INFO Scraping page 63 for Politics & Social Sciences ended
+2025-03-05 04:23:26,192 INFO Scraping page 64 for Politics & Social Sciences ended
+2025-03-05 04:23:29,589 INFO Scraping page 65 for Politics & Social Sciences ended
+2025-03-05 04:23:33,101 INFO Scraping page 66 for Politics & Social Sciences ended
+2025-03-05 04:23:36,524 INFO Scraping page 67 for Politics & Social Sciences ended
+2025-03-05 04:23:39,948 INFO Scraping page 68 for Politics & Social Sciences ended
+2025-03-05 04:23:43,366 INFO Scraping page 69 for Politics & Social Sciences ended
+2025-03-05 04:23:46,800 INFO Scraping page 70 for Politics & Social Sciences ended
+2025-03-05 04:23:50,396 INFO Scraping page 71 for Politics & Social Sciences ended
+2025-03-05 04:23:53,803 INFO Scraping page 72 for Politics & Social Sciences ended
+2025-03-05 04:23:57,251 INFO Scraping page 73 for Politics & Social Sciences ended
+2025-03-05 04:24:00,700 INFO Scraping page 74 for Politics & Social Sciences ended
+2025-03-05 04:24:04,286 INFO Scraping page 75 for Politics & Social Sciences ended
+2025-03-05 04:24:07,603 INFO Scraping page 76 for Politics & Social Sciences ended
+2025-03-05 04:24:07,609 INFO Page 76 is the last available page for Politics & Social Sciences
+2025-03-05 04:24:07,619 ERROR Error appeared while scraping page 76 for Politics & Social Sciences
+Traceback (most recent call last):
+  File "C:\Users\DAN\AppData\Local\Temp\ipykernel_20132\1387982281.py", line 50, in Scrape
+    driver.find_elements(By.CLASS_NAME, 's-list-item-margin-right-adjustment')[-1].click()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^
+IndexError: list index out of range
+2025-03-05 04:24:09,917 INFO Data for Politics & Social Sciences category added to All_added_books_data_temp.csv
+2025-03-05 04:24:09,917 INFO Start() function started
+2025-03-05 04:24:13,895 INFO Setting country started
+2025-03-05 04:24:20,770 INFO Setting country ended
+2025-03-05 04:24:31,913 INFO Start() function ended
+2025-03-05 04:24:31,913 INFO Scraping for Reference started
+2025-03-05 04:24:32,171 INFO Scraping page 1 for Reference ended
+2025-03-05 04:24:35,545 INFO Scraping page 2 for Reference ended
+2025-03-05 04:24:38,884 INFO Scraping page 3 for Reference ended
+2025-03-05 04:24:46,412 INFO Scraping page 4 for Reference ended
+2025-03-05 04:24:49,729 INFO Scraping page 5 for Reference ended
+2025-03-05 04:24:53,072 INFO Scraping page 6 for Reference ended
+2025-03-05 04:24:56,384 INFO Scraping page 7 for Reference ended
+2025-03-05 04:24:59,702 INFO Scraping page 8 for Reference ended
+2025-03-05 04:25:03,040 INFO Scraping page 9 for Reference ended
+2025-03-05 04:25:06,535 INFO Scraping page 10 for Reference ended
+2025-03-05 04:25:09,860 INFO Scraping page 11 for Reference ended
+2025-03-05 04:25:13,200 INFO Scraping page 12 for Reference ended
+2025-03-05 04:25:16,516 INFO Scraping page 13 for Reference ended
+2025-03-05 04:25:19,857 INFO Scraping page 14 for Reference ended
+2025-03-05 04:25:23,373 INFO Scraping page 15 for Reference ended
+2025-03-05 04:25:26,676 INFO Scraping page 16 for Reference ended
+2025-03-05 04:25:29,982 INFO Scraping page 17 for Reference ended
+2025-03-05 04:25:33,303 INFO Scraping page 18 for Reference ended
+2025-03-05 04:25:36,647 INFO Scraping page 19 for Reference ended
+2025-03-05 04:25:40,139 INFO Scraping page 20 for Reference ended
+2025-03-05 04:25:43,446 INFO Scraping page 21 for Reference ended
+2025-03-05 04:25:46,777 INFO Scraping page 22 for Reference ended
+2025-03-05 04:25:50,117 INFO Scraping page 23 for Reference ended
+2025-03-05 04:25:53,447 INFO Scraping page 24 for Reference ended
+2025-03-05 04:25:56,917 INFO Scraping page 25 for Reference ended
+2025-03-05 04:26:00,267 INFO Scraping page 26 for Reference ended
+2025-03-05 04:26:03,614 INFO Scraping page 27 for Reference ended
+2025-03-05 04:26:06,947 INFO Scraping page 28 for Reference ended
+2025-03-05 04:26:10,295 INFO Scraping page 29 for Reference ended
+2025-03-05 04:26:13,803 INFO Scraping page 30 for Reference ended
+2025-03-05 04:26:17,156 INFO Scraping page 31 for Reference ended
+2025-03-05 04:26:20,518 INFO Scraping page 32 for Reference ended
+2025-03-05 04:26:23,868 INFO Scraping page 33 for Reference ended
+2025-03-05 04:26:27,203 INFO Scraping page 34 for Reference ended
+2025-03-05 04:26:30,697 INFO Scraping page 35 for Reference ended
+2025-03-05 04:26:34,037 INFO Scraping page 36 for Reference ended
+2025-03-05 04:26:37,405 INFO Scraping page 37 for Reference ended
+2025-03-05 04:26:40,765 INFO Scraping page 38 for Reference ended
+2025-03-05 04:26:44,197 INFO Scraping page 39 for Reference ended
+2025-03-05 04:26:47,564 INFO Scraping page 40 for Reference ended
+2025-03-05 04:26:51,078 INFO Scraping page 41 for Reference ended
+2025-03-05 04:26:54,453 INFO Scraping page 42 for Reference ended
+2025-03-05 04:26:57,823 INFO Scraping page 43 for Reference ended
+2025-03-05 04:27:01,219 INFO Scraping page 44 for Reference ended
+2025-03-05 04:27:04,628 INFO Scraping page 45 for Reference ended
+2025-03-05 04:27:08,184 INFO Scraping page 46 for Reference ended
+2025-03-05 04:27:11,619 INFO Scraping page 47 for Reference ended
+2025-03-05 04:27:15,039 INFO Scraping page 48 for Reference ended
+2025-03-05 04:27:18,541 INFO Scraping page 49 for Reference ended
+2025-03-05 04:27:21,951 INFO Scraping page 50 for Reference ended
+2025-03-05 04:27:25,514 INFO Scraping page 51 for Reference ended
+2025-03-05 04:27:28,949 INFO Scraping page 52 for Reference ended
+2025-03-05 04:27:32,375 INFO Scraping page 53 for Reference ended
+2025-03-05 04:27:35,801 INFO Scraping page 54 for Reference ended
+2025-03-05 04:27:39,373 INFO Scraping page 55 for Reference ended
+2025-03-05 04:27:42,796 INFO Scraping page 56 for Reference ended
+2025-03-05 04:27:46,205 INFO Scraping page 57 for Reference ended
+2025-03-05 04:27:49,633 INFO Scraping page 58 for Reference ended
+2025-03-05 04:27:53,078 INFO Scraping page 59 for Reference ended
+2025-03-05 04:27:56,496 INFO Scraping page 60 for Reference ended
+2025-03-05 04:28:00,080 INFO Scraping page 61 for Reference ended
+2025-03-05 04:28:03,537 INFO Scraping page 62 for Reference ended
+2025-03-05 04:28:06,951 INFO Scraping page 63 for Reference ended
+2025-03-05 04:28:10,390 INFO Scraping page 64 for Reference ended
+2025-03-05 04:28:13,929 INFO Scraping page 65 for Reference ended
+2025-03-05 04:28:17,402 INFO Scraping page 66 for Reference ended
+2025-03-05 04:28:20,833 INFO Scraping page 67 for Reference ended
+2025-03-05 04:28:24,528 INFO Scraping page 68 for Reference ended
+2025-03-05 04:28:27,948 INFO Scraping page 69 for Reference ended
+2025-03-05 04:28:31,425 INFO Scraping page 70 for Reference ended
+2025-03-05 04:28:35,162 INFO Scraping page 71 for Reference ended
+2025-03-05 04:28:38,612 INFO Scraping page 72 for Reference ended
+2025-03-05 04:28:42,064 INFO Scraping page 73 for Reference ended
+2025-03-05 04:28:45,542 INFO Scraping page 74 for Reference ended
+2025-03-05 04:28:49,242 INFO Scraping page 75 for Reference ended
+2025-03-05 04:28:52,605 INFO Scraping page 76 for Reference ended
+2025-03-05 04:28:52,612 INFO Page 76 is the last available page for Reference
+2025-03-05 04:28:52,630 ERROR Error appeared while scraping page 76 for Reference
+Traceback (most recent call last):
+  File "C:\Users\DAN\AppData\Local\Temp\ipykernel_20132\1387982281.py", line 50, in Scrape
+    driver.find_elements(By.CLASS_NAME, 's-list-item-margin-right-adjustment')[-1].click()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^
+IndexError: list index out of range
+2025-03-05 04:28:54,969 INFO Data for Reference category added to All_added_books_data_temp.csv
+2025-03-05 04:28:54,969 INFO Start() function started
+2025-03-05 04:28:59,218 INFO Setting country started
+2025-03-05 04:29:06,110 INFO Setting country ended
+2025-03-05 04:29:17,496 INFO Start() function ended
+2025-03-05 04:29:17,496 INFO Scraping for Religion & Spirituality started
+2025-03-05 04:29:17,727 INFO Scraping page 1 for Religion & Spirituality ended
+2025-03-05 04:29:21,008 INFO Scraping page 2 for Religion & Spirituality ended
+2025-03-05 04:29:24,269 INFO Scraping page 3 for Religion & Spirituality ended
+2025-03-05 04:29:27,534 INFO Scraping page 4 for Religion & Spirituality ended
+2025-03-05 04:29:35,034 INFO Scraping page 5 for Religion & Spirituality ended
+2025-03-05 04:29:38,310 INFO Scraping page 6 for Religion & Spirituality ended
+2025-03-05 04:29:41,569 INFO Scraping page 7 for Religion & Spirituality ended
+2025-03-05 04:29:44,839 INFO Scraping page 8 for Religion & Spirituality ended
+2025-03-05 04:29:48,088 INFO Scraping page 9 for Religion & Spirituality ended
+2025-03-05 04:29:51,498 INFO Scraping page 10 for Religion & Spirituality ended
+2025-03-05 04:29:54,745 INFO Scraping page 11 for Religion & Spirituality ended
+2025-03-05 04:29:58,022 INFO Scraping page 12 for Religion & Spirituality ended
+2025-03-05 04:30:01,297 INFO Scraping page 13 for Religion & Spirituality ended
+2025-03-05 04:30:04,560 INFO Scraping page 14 for Religion & Spirituality ended
+2025-03-05 04:30:07,964 INFO Scraping page 15 for Religion & Spirituality ended
+2025-03-05 04:30:11,252 INFO Scraping page 16 for Religion & Spirituality ended
+2025-03-05 04:30:14,535 INFO Scraping page 17 for Religion & Spirituality ended
+2025-03-05 04:30:17,802 INFO Scraping page 18 for Religion & Spirituality ended
+2025-03-05 04:30:21,114 INFO Scraping page 19 for Religion & Spirituality ended
+2025-03-05 04:30:24,579 INFO Scraping page 20 for Religion & Spirituality ended
+2025-03-05 04:30:27,918 INFO Scraping page 21 for Religion & Spirituality ended
+2025-03-05 04:30:31,244 INFO Scraping page 22 for Religion & Spirituality ended
+2025-03-05 04:30:34,566 INFO Scraping page 23 for Religion & Spirituality ended
+2025-03-05 04:30:37,895 INFO Scraping page 24 for Religion & Spirituality ended
+2025-03-05 04:30:41,366 INFO Scraping page 25 for Religion & Spirituality ended
+2025-03-05 04:30:44,696 INFO Scraping page 26 for Religion & Spirituality ended
+2025-03-05 04:30:48,029 INFO Scraping page 27 for Religion & Spirituality ended
+2025-03-05 04:30:51,364 INFO Scraping page 28 for Religion & Spirituality ended
+2025-03-05 04:30:54,838 INFO Scraping page 29 for Religion & Spirituality ended
+2025-03-05 04:30:58,158 INFO Scraping page 30 for Religion & Spirituality ended
+2025-03-05 04:31:01,499 INFO Scraping page 31 for Religion & Spirituality ended
+2025-03-05 04:31:04,882 INFO Scraping page 32 for Religion & Spirituality ended
+2025-03-05 04:31:08,219 INFO Scraping page 33 for Religion & Spirituality ended
+2025-03-05 04:31:11,558 INFO Scraping page 34 for Religion & Spirituality ended
+2025-03-05 04:31:15,095 INFO Scraping page 35 for Religion & Spirituality ended
+2025-03-05 04:31:18,444 INFO Scraping page 36 for Religion & Spirituality ended
+2025-03-05 04:31:21,785 INFO Scraping page 37 for Religion & Spirituality ended
+2025-03-05 04:31:25,138 INFO Scraping page 38 for Religion & Spirituality ended
+2025-03-05 04:31:28,620 INFO Scraping page 39 for Religion & Spirituality ended
+2025-03-05 04:31:31,972 INFO Scraping page 40 for Religion & Spirituality ended
+2025-03-05 04:31:35,295 INFO Scraping page 41 for Religion & Spirituality ended
+2025-03-05 04:31:38,645 INFO Scraping page 42 for Religion & Spirituality ended
+2025-03-05 04:31:41,990 INFO Scraping page 43 for Religion & Spirituality ended
+2025-03-05 04:31:45,339 INFO Scraping page 44 for Religion & Spirituality ended
+2025-03-05 04:31:48,819 INFO Scraping page 45 for Religion & Spirituality ended
+2025-03-05 04:31:52,154 INFO Scraping page 46 for Religion & Spirituality ended
+2025-03-05 04:31:55,484 INFO Scraping page 47 for Religion & Spirituality ended
+2025-03-05 04:31:58,847 INFO Scraping page 48 for Religion & Spirituality ended
+2025-03-05 04:32:02,300 INFO Scraping page 49 for Religion & Spirituality ended
+2025-03-05 04:32:05,635 INFO Scraping page 50 for Religion & Spirituality ended
+2025-03-05 04:32:08,915 INFO Scraping page 51 for Religion & Spirituality ended
+2025-03-05 04:32:08,925 INFO Page 51 is the last available page for Religion & Spirituality
+2025-03-05 04:32:08,935 ERROR Error appeared while scraping page 51 for Religion & Spirituality
+Traceback (most recent call last):
+  File "C:\Users\DAN\AppData\Local\Temp\ipykernel_20132\1387982281.py", line 50, in Scrape
+    driver.find_elements(By.CLASS_NAME, 's-list-item-margin-right-adjustment')[-1].click()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^
+IndexError: list index out of range
+2025-03-05 04:32:11,096 INFO Data for Religion & Spirituality category added to All_added_books_data_temp.csv
+2025-03-05 04:32:11,096 INFO Start() function started
+2025-03-05 04:32:14,862 INFO Setting country started
+2025-03-05 04:32:21,741 INFO Setting country ended
+2025-03-05 04:32:32,895 INFO Start() function ended
+2025-03-05 04:32:32,895 INFO Scraping for Science & Math started
+2025-03-05 04:32:33,120 INFO Scraping page 1 for Science & Math ended
+2025-03-05 04:32:36,450 INFO Scraping page 2 for Science & Math ended
+2025-03-05 04:32:39,746 INFO Scraping page 3 for Science & Math ended
+2025-03-05 04:32:47,298 INFO Scraping page 4 for Science & Math ended
+2025-03-05 04:32:50,616 INFO Scraping page 5 for Science & Math ended
+2025-03-05 04:32:53,935 INFO Scraping page 6 for Science & Math ended
+2025-03-05 04:32:57,256 INFO Scraping page 7 for Science & Math ended
+2025-03-05 04:33:00,571 INFO Scraping page 8 for Science & Math ended
+2025-03-05 04:33:04,041 INFO Scraping page 9 for Science & Math ended
+2025-03-05 04:33:07,347 INFO Scraping page 10 for Science & Math ended
+2025-03-05 04:33:10,647 INFO Scraping page 11 for Science & Math ended
+2025-03-05 04:33:13,983 INFO Scraping page 12 for Science & Math ended
+2025-03-05 04:33:17,433 INFO Scraping page 13 for Science & Math ended
+2025-03-05 04:33:20,752 INFO Scraping page 14 for Science & Math ended
+2025-03-05 04:33:24,077 INFO Scraping page 15 for Science & Math ended
+2025-03-05 04:33:27,414 INFO Scraping page 16 for Science & Math ended
+2025-03-05 04:33:30,717 INFO Scraping page 17 for Science & Math ended
+2025-03-05 04:33:34,061 INFO Scraping page 18 for Science & Math ended
+2025-03-05 04:33:37,551 INFO Scraping page 19 for Science & Math ended
+2025-03-05 04:33:40,922 INFO Scraping page 20 for Science & Math ended
+2025-03-05 04:33:44,306 INFO Scraping page 21 for Science & Math ended
+2025-03-05 04:33:47,664 INFO Scraping page 22 for Science & Math ended
+2025-03-05 04:33:51,014 INFO Scraping page 23 for Science & Math ended
+2025-03-05 04:33:54,524 INFO Scraping page 24 for Science & Math ended
+2025-03-05 04:33:57,917 INFO Scraping page 25 for Science & Math ended
+2025-03-05 04:34:01,301 INFO Scraping page 26 for Science & Math ended
+2025-03-05 04:34:04,673 INFO Scraping page 27 for Science & Math ended
+2025-03-05 04:34:08,191 INFO Scraping page 28 for Science & Math ended
+2025-03-05 04:34:11,569 INFO Scraping page 29 for Science & Math ended
+2025-03-05 04:34:14,970 INFO Scraping page 30 for Science & Math ended
+2025-03-05 04:34:18,351 INFO Scraping page 31 for Science & Math ended
+2025-03-05 04:34:21,732 INFO Scraping page 32 for Science & Math ended
+2025-03-05 04:34:25,189 INFO Scraping page 33 for Science & Math ended
+2025-03-05 04:34:28,753 INFO Scraping page 34 for Science & Math ended
+2025-03-05 04:34:32,160 INFO Scraping page 35 for Science & Math ended
+2025-03-05 04:34:35,556 INFO Scraping page 36 for Science & Math ended
+2025-03-05 04:34:38,932 INFO Scraping page 37 for Science & Math ended
+2025-03-05 04:34:42,460 INFO Scraping page 38 for Science & Math ended
+2025-03-05 04:34:45,780 INFO Scraping page 39 for Science & Math ended
+2025-03-05 04:34:45,785 INFO Page 39 is the last available page for Science & Math
+2025-03-05 04:34:45,793 ERROR Error appeared while scraping page 39 for Science & Math
+Traceback (most recent call last):
+  File "C:\Users\DAN\AppData\Local\Temp\ipykernel_20132\1387982281.py", line 50, in Scrape
+    driver.find_elements(By.CLASS_NAME, 's-list-item-margin-right-adjustment')[-1].click()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^
+IndexError: list index out of range
+2025-03-05 04:34:48,095 INFO Data for Science & Math category added to All_added_books_data_temp.csv
+2025-03-05 04:34:48,095 INFO Start() function started
+2025-03-05 04:34:52,328 INFO Setting country started
+2025-03-05 04:34:59,194 INFO Setting country ended
+2025-03-05 04:35:10,837 INFO Start() function ended
+2025-03-05 04:35:10,837 INFO Scraping for Self-help started
+2025-03-05 04:35:11,061 INFO Scraping page 1 for Self-help ended
+2025-03-05 04:35:14,437 INFO Scraping page 2 for Self-help ended
+2025-03-05 04:35:17,764 INFO Scraping page 3 for Self-help ended
+2025-03-05 04:35:21,085 INFO Scraping page 4 for Self-help ended
+2025-03-05 04:35:28,629 INFO Scraping page 5 for Self-help ended
+2025-03-05 04:35:31,945 INFO Scraping page 6 for Self-help ended
+2025-03-05 04:35:35,252 INFO Scraping page 7 for Self-help ended
+2025-03-05 04:35:38,550 INFO Scraping page 8 for Self-help ended
+2025-03-05 04:35:41,983 INFO Scraping page 9 for Self-help ended
+2025-03-05 04:35:45,334 INFO Scraping page 10 for Self-help ended
+2025-03-05 04:35:48,640 INFO Scraping page 11 for Self-help ended
+2025-03-05 04:35:51,957 INFO Scraping page 12 for Self-help ended
+2025-03-05 04:35:55,279 INFO Scraping page 13 for Self-help ended
+2025-03-05 04:35:58,730 INFO Scraping page 14 for Self-help ended
+2025-03-05 04:36:02,049 INFO Scraping page 15 for Self-help ended
+2025-03-05 04:36:05,355 INFO Scraping page 16 for Self-help ended
+2025-03-05 04:36:08,697 INFO Scraping page 17 for Self-help ended
+2025-03-05 04:36:12,026 INFO Scraping page 18 for Self-help ended
+2025-03-05 04:36:15,493 INFO Scraping page 19 for Self-help ended
+2025-03-05 04:36:18,835 INFO Scraping page 20 for Self-help ended
+2025-03-05 04:36:22,187 INFO Scraping page 21 for Self-help ended
+2025-03-05 04:36:25,526 INFO Scraping page 22 for Self-help ended
+2025-03-05 04:36:28,893 INFO Scraping page 23 for Self-help ended
+2025-03-05 04:36:32,374 INFO Scraping page 24 for Self-help ended
+2025-03-05 04:36:35,749 INFO Scraping page 25 for Self-help ended
+2025-03-05 04:36:39,085 INFO Scraping page 26 for Self-help ended
+2025-03-05 04:36:42,479 INFO Scraping page 27 for Self-help ended
+2025-03-05 04:36:45,844 INFO Scraping page 28 for Self-help ended
+2025-03-05 04:36:49,348 INFO Scraping page 29 for Self-help ended
+2025-03-05 04:36:52,702 INFO Scraping page 30 for Self-help ended
+2025-03-05 04:36:56,038 INFO Scraping page 31 for Self-help ended
+2025-03-05 04:36:59,373 INFO Scraping page 32 for Self-help ended
+2025-03-05 04:37:02,742 INFO Scraping page 33 for Self-help ended
+2025-03-05 04:37:06,264 INFO Scraping page 34 for Self-help ended
+2025-03-05 04:37:09,659 INFO Scraping page 35 for Self-help ended
+2025-03-05 04:37:13,053 INFO Scraping page 36 for Self-help ended
+2025-03-05 04:37:16,444 INFO Scraping page 37 for Self-help ended
+2025-03-05 04:37:19,820 INFO Scraping page 38 for Self-help ended
+2025-03-05 04:37:23,354 INFO Scraping page 39 for Self-help ended
+2025-03-05 04:37:26,745 INFO Scraping page 40 for Self-help ended
+2025-03-05 04:37:30,137 INFO Scraping page 41 for Self-help ended
+2025-03-05 04:37:33,535 INFO Scraping page 42 for Self-help ended
+2025-03-05 04:37:37,076 INFO Scraping page 43 for Self-help ended
+2025-03-05 04:37:40,464 INFO Scraping page 44 for Self-help ended
+2025-03-05 04:37:43,871 INFO Scraping page 45 for Self-help ended
+2025-03-05 04:37:47,311 INFO Scraping page 46 for Self-help ended
+2025-03-05 04:37:50,734 INFO Scraping page 47 for Self-help ended
+2025-03-05 04:37:54,299 INFO Scraping page 48 for Self-help ended
+2025-03-05 04:37:57,688 INFO Scraping page 49 for Self-help ended
+2025-03-05 04:38:01,098 INFO Scraping page 50 for Self-help ended
+2025-03-05 04:38:04,475 INFO Scraping page 51 for Self-help ended
+2025-03-05 04:38:04,485 INFO Page 51 is the last available page for Self-help
+2025-03-05 04:38:04,495 ERROR Error appeared while scraping page 51 for Self-help
+Traceback (most recent call last):
+  File "C:\Users\DAN\AppData\Local\Temp\ipykernel_20132\1387982281.py", line 50, in Scrape
+    driver.find_elements(By.CLASS_NAME, 's-list-item-margin-right-adjustment')[-1].click()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^
+IndexError: list index out of range
+2025-03-05 04:38:06,833 INFO Data for Self-help category added to All_added_books_data_temp.csv
+2025-03-05 04:38:06,833 INFO Start() function started
+2025-03-05 04:38:10,777 INFO Setting country started
+2025-03-05 04:38:17,670 INFO Setting country ended
+2025-03-05 04:38:28,763 INFO Start() function ended
+2025-03-05 04:38:28,763 INFO Scraping for Sports & Outdoors started
+2025-03-05 04:38:29,012 INFO Scraping page 1 for Sports & Outdoors ended
+2025-03-05 04:38:36,602 INFO Scraping page 2 for Sports & Outdoors ended
+2025-03-05 04:38:39,940 INFO Scraping page 3 for Sports & Outdoors ended
+2025-03-05 04:38:43,271 INFO Scraping page 4 for Sports & Outdoors ended
+2025-03-05 04:38:46,600 INFO Scraping page 5 for Sports & Outdoors ended
+2025-03-05 04:38:49,900 INFO Scraping page 6 for Sports & Outdoors ended
+2025-03-05 04:38:53,181 INFO Scraping page 7 for Sports & Outdoors ended
+2025-03-05 04:38:56,621 INFO Scraping page 8 for Sports & Outdoors ended
+2025-03-05 04:38:59,919 INFO Scraping page 9 for Sports & Outdoors ended
+2025-03-05 04:39:03,220 INFO Scraping page 10 for Sports & Outdoors ended
+2025-03-05 04:39:06,514 INFO Scraping page 11 for Sports & Outdoors ended
+2025-03-05 04:39:09,820 INFO Scraping page 12 for Sports & Outdoors ended
+2025-03-05 04:39:13,295 INFO Scraping page 13 for Sports & Outdoors ended
+2025-03-05 04:39:16,595 INFO Scraping page 14 for Sports & Outdoors ended
+2025-03-05 04:39:19,907 INFO Scraping page 15 for Sports & Outdoors ended
+2025-03-05 04:39:23,209 INFO Scraping page 16 for Sports & Outdoors ended
+2025-03-05 04:39:26,506 INFO Scraping page 17 for Sports & Outdoors ended
+2025-03-05 04:39:29,808 INFO Scraping page 18 for Sports & Outdoors ended
+2025-03-05 04:39:33,304 INFO Scraping page 19 for Sports & Outdoors ended
+2025-03-05 04:39:36,657 INFO Scraping page 20 for Sports & Outdoors ended
+2025-03-05 04:39:39,990 INFO Scraping page 21 for Sports & Outdoors ended
+2025-03-05 04:39:43,312 INFO Scraping page 22 for Sports & Outdoors ended
+2025-03-05 04:39:46,644 INFO Scraping page 23 for Sports & Outdoors ended
+2025-03-05 04:39:50,115 INFO Scraping page 24 for Sports & Outdoors ended
+2025-03-05 04:39:53,444 INFO Scraping page 25 for Sports & Outdoors ended
+2025-03-05 04:39:56,794 INFO Scraping page 26 for Sports & Outdoors ended
+2025-03-05 04:40:00,138 INFO Scraping page 27 for Sports & Outdoors ended
+2025-03-05 04:40:03,480 INFO Scraping page 28 for Sports & Outdoors ended
+2025-03-05 04:40:06,818 INFO Scraping page 29 for Sports & Outdoors ended
+2025-03-05 04:40:10,285 INFO Scraping page 30 for Sports & Outdoors ended
+2025-03-05 04:40:13,603 INFO Scraping page 31 for Sports & Outdoors ended
+2025-03-05 04:40:16,953 INFO Scraping page 32 for Sports & Outdoors ended
+2025-03-05 04:40:20,292 INFO Scraping page 33 for Sports & Outdoors ended
+2025-03-05 04:40:23,658 INFO Scraping page 34 for Sports & Outdoors ended
+2025-03-05 04:40:27,161 INFO Scraping page 35 for Sports & Outdoors ended
+2025-03-05 04:40:30,529 INFO Scraping page 36 for Sports & Outdoors ended
+2025-03-05 04:40:33,904 INFO Scraping page 37 for Sports & Outdoors ended
+2025-03-05 04:40:37,256 INFO Scraping page 38 for Sports & Outdoors ended
+2025-03-05 04:40:40,633 INFO Scraping page 39 for Sports & Outdoors ended
+2025-03-05 04:40:44,028 INFO Scraping page 40 for Sports & Outdoors ended
+2025-03-05 04:40:47,575 INFO Scraping page 41 for Sports & Outdoors ended
+2025-03-05 04:40:50,967 INFO Scraping page 42 for Sports & Outdoors ended
+2025-03-05 04:40:54,364 INFO Scraping page 43 for Sports & Outdoors ended
+2025-03-05 04:40:57,762 INFO Scraping page 44 for Sports & Outdoors ended
+2025-03-05 04:41:01,168 INFO Scraping page 45 for Sports & Outdoors ended
+2025-03-05 04:41:04,710 INFO Scraping page 46 for Sports & Outdoors ended
+2025-03-05 04:41:08,095 INFO Scraping page 47 for Sports & Outdoors ended
+2025-03-05 04:41:11,480 INFO Scraping page 48 for Sports & Outdoors ended
+2025-03-05 04:41:14,884 INFO Scraping page 49 for Sports & Outdoors ended
+2025-03-05 04:41:18,300 INFO Scraping page 50 for Sports & Outdoors ended
+2025-03-05 04:41:21,687 INFO Scraping page 51 for Sports & Outdoors ended
+2025-03-05 04:41:25,278 INFO Scraping page 52 for Sports & Outdoors ended
+2025-03-05 04:41:28,709 INFO Scraping page 53 for Sports & Outdoors ended
+2025-03-05 04:41:32,134 INFO Scraping page 54 for Sports & Outdoors ended
+2025-03-05 04:41:35,525 INFO Scraping page 55 for Sports & Outdoors ended
+2025-03-05 04:41:38,923 INFO Scraping page 56 for Sports & Outdoors ended
+2025-03-05 04:41:42,485 INFO Scraping page 57 for Sports & Outdoors ended
+2025-03-05 04:41:45,920 INFO Scraping page 58 for Sports & Outdoors ended
+2025-03-05 04:41:49,339 INFO Scraping page 59 for Sports & Outdoors ended
+2025-03-05 04:41:52,727 INFO Scraping page 60 for Sports & Outdoors ended
+2025-03-05 04:41:56,130 INFO Scraping page 61 for Sports & Outdoors ended
+2025-03-05 04:41:59,704 INFO Scraping page 62 for Sports & Outdoors ended
+2025-03-05 04:42:03,102 INFO Scraping page 63 for Sports & Outdoors ended
+2025-03-05 04:42:06,493 INFO Scraping page 64 for Sports & Outdoors ended
+2025-03-05 04:42:09,936 INFO Scraping page 65 for Sports & Outdoors ended
+2025-03-05 04:42:13,552 INFO Scraping page 66 for Sports & Outdoors ended
+2025-03-05 04:42:17,237 INFO Scraping page 67 for Sports & Outdoors ended
+2025-03-05 04:42:20,757 INFO Scraping page 68 for Sports & Outdoors ended
+2025-03-05 04:42:24,179 INFO Scraping page 69 for Sports & Outdoors ended
+2025-03-05 04:42:27,608 INFO Scraping page 70 for Sports & Outdoors ended
+2025-03-05 04:42:31,021 INFO Scraping page 71 for Sports & Outdoors ended
+2025-03-05 04:42:34,475 INFO Scraping page 72 for Sports & Outdoors ended
+2025-03-05 04:42:38,055 INFO Scraping page 73 for Sports & Outdoors ended
+2025-03-05 04:42:41,487 INFO Scraping page 74 for Sports & Outdoors ended
+2025-03-05 04:42:44,933 INFO Scraping page 75 for Sports & Outdoors ended
+2025-03-05 04:42:48,293 INFO Scraping page 76 for Sports & Outdoors ended
+2025-03-05 04:42:48,297 INFO Page 76 is the last available page for Sports & Outdoors
+2025-03-05 04:42:48,307 ERROR Error appeared while scraping page 76 for Sports & Outdoors
+Traceback (most recent call last):
+  File "C:\Users\DAN\AppData\Local\Temp\ipykernel_20132\1387982281.py", line 50, in Scrape
+    driver.find_elements(By.CLASS_NAME, 's-list-item-margin-right-adjustment')[-1].click()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^
+IndexError: list index out of range
+2025-03-05 04:42:50,908 INFO Data for Sports & Outdoors category added to All_added_books_data_temp.csv
+2025-03-05 04:42:50,908 INFO Start() function started
+2025-03-05 04:42:54,876 INFO Setting country started
+2025-03-05 04:43:01,761 INFO Setting country ended
+2025-03-05 04:43:13,119 INFO Start() function ended
+2025-03-05 04:43:13,119 INFO Scraping for Travel started
+2025-03-05 04:43:13,359 INFO Scraping page 1 for Travel ended
+2025-03-05 04:43:20,902 INFO Scraping page 2 for Travel ended
+2025-03-05 04:43:24,173 INFO Scraping page 3 for Travel ended
+2025-03-05 04:43:27,443 INFO Scraping page 4 for Travel ended
+2025-03-05 04:43:30,726 INFO Scraping page 5 for Travel ended
+2025-03-05 04:43:33,998 INFO Scraping page 6 for Travel ended
+2025-03-05 04:43:37,423 INFO Scraping page 7 for Travel ended
+2025-03-05 04:43:40,700 INFO Scraping page 8 for Travel ended
+2025-03-05 04:43:43,960 INFO Scraping page 9 for Travel ended
+2025-03-05 04:43:47,245 INFO Scraping page 10 for Travel ended
+2025-03-05 04:43:50,529 INFO Scraping page 11 for Travel ended
+2025-03-05 04:43:53,959 INFO Scraping page 12 for Travel ended
+2025-03-05 04:43:57,255 INFO Scraping page 13 for Travel ended
+2025-03-05 04:44:00,545 INFO Scraping page 14 for Travel ended
+2025-03-05 04:44:03,828 INFO Scraping page 15 for Travel ended
+2025-03-05 04:44:07,120 INFO Scraping page 16 for Travel ended
+2025-03-05 04:44:10,555 INFO Scraping page 17 for Travel ended
+2025-03-05 04:44:13,848 INFO Scraping page 18 for Travel ended
+2025-03-05 04:44:17,165 INFO Scraping page 19 for Travel ended
+2025-03-05 04:44:20,483 INFO Scraping page 20 for Travel ended
+2025-03-05 04:44:23,804 INFO Scraping page 21 for Travel ended
+2025-03-05 04:44:27,259 INFO Scraping page 22 for Travel ended
+2025-03-05 04:44:30,571 INFO Scraping page 23 for Travel ended
+2025-03-05 04:44:33,900 INFO Scraping page 24 for Travel ended
+2025-03-05 04:44:37,213 INFO Scraping page 25 for Travel ended
+2025-03-05 04:44:40,540 INFO Scraping page 26 for Travel ended
+2025-03-05 04:44:43,858 INFO Scraping page 27 for Travel ended
+2025-03-05 04:44:47,355 INFO Scraping page 28 for Travel ended
+2025-03-05 04:44:50,679 INFO Scraping page 29 for Travel ended
+2025-03-05 04:44:54,003 INFO Scraping page 30 for Travel ended
+2025-03-05 04:44:57,335 INFO Scraping page 31 for Travel ended
+2025-03-05 04:45:00,662 INFO Scraping page 32 for Travel ended
+2025-03-05 04:45:04,152 INFO Scraping page 33 for Travel ended
+2025-03-05 04:45:07,462 INFO Scraping page 34 for Travel ended
+2025-03-05 04:45:10,775 INFO Scraping page 35 for Travel ended
+2025-03-05 04:45:14,101 INFO Scraping page 36 for Travel ended
+2025-03-05 04:45:17,410 INFO Scraping page 37 for Travel ended
+2025-03-05 04:45:20,866 INFO Scraping page 38 for Travel ended
+2025-03-05 04:45:24,193 INFO Scraping page 39 for Travel ended
+2025-03-05 04:45:27,496 INFO Scraping page 40 for Travel ended
+2025-03-05 04:45:30,806 INFO Scraping page 41 for Travel ended
+2025-03-05 04:45:34,112 INFO Scraping page 42 for Travel ended
+2025-03-05 04:45:37,578 INFO Scraping page 43 for Travel ended
+2025-03-05 04:45:40,909 INFO Scraping page 44 for Travel ended
+2025-03-05 04:45:44,244 INFO Scraping page 45 for Travel ended
+2025-03-05 04:45:47,571 INFO Scraping page 46 for Travel ended
+2025-03-05 04:45:50,896 INFO Scraping page 47 for Travel ended
+2025-03-05 04:45:54,359 INFO Scraping page 48 for Travel ended
+2025-03-05 04:45:57,713 INFO Scraping page 49 for Travel ended
+2025-03-05 04:46:01,056 INFO Scraping page 50 for Travel ended
+2025-03-05 04:46:04,403 INFO Scraping page 51 for Travel ended
+2025-03-05 04:46:07,749 INFO Scraping page 52 for Travel ended
+2025-03-05 04:46:11,117 INFO Scraping page 53 for Travel ended
+2025-03-05 04:46:14,602 INFO Scraping page 54 for Travel ended
+2025-03-05 04:46:17,942 INFO Scraping page 55 for Travel ended
+2025-03-05 04:46:21,285 INFO Scraping page 56 for Travel ended
+2025-03-05 04:46:24,611 INFO Scraping page 57 for Travel ended
+2025-03-05 04:46:27,945 INFO Scraping page 58 for Travel ended
+2025-03-05 04:46:31,435 INFO Scraping page 59 for Travel ended
+2025-03-05 04:46:34,794 INFO Scraping page 60 for Travel ended
+2025-03-05 04:46:38,167 INFO Scraping page 61 for Travel ended
+2025-03-05 04:46:41,544 INFO Scraping page 62 for Travel ended
+2025-03-05 04:46:44,930 INFO Scraping page 63 for Travel ended
+2025-03-05 04:46:48,565 INFO Scraping page 64 for Travel ended
+2025-03-05 04:46:51,970 INFO Scraping page 65 for Travel ended
+2025-03-05 04:46:55,350 INFO Scraping page 66 for Travel ended
+2025-03-05 04:46:58,751 INFO Scraping page 67 for Travel ended
+2025-03-05 04:47:02,134 INFO Scraping page 68 for Travel ended
+2025-03-05 04:47:05,665 INFO Scraping page 69 for Travel ended
+2025-03-05 04:47:09,046 INFO Scraping page 70 for Travel ended
+2025-03-05 04:47:12,456 INFO Scraping page 71 for Travel ended
+2025-03-05 04:47:15,878 INFO Scraping page 72 for Travel ended
+2025-03-05 04:47:19,312 INFO Scraping page 73 for Travel ended
+2025-03-05 04:47:22,878 INFO Scraping page 74 for Travel ended
+2025-03-05 04:47:26,293 INFO Scraping page 75 for Travel ended
+2025-03-05 04:47:29,640 INFO Scraping page 76 for Travel ended
+2025-03-05 04:47:29,649 INFO Page 76 is the last available page for Travel
+2025-03-05 04:47:29,661 ERROR Error appeared while scraping page 76 for Travel
+Traceback (most recent call last):
+  File "C:\Users\DAN\AppData\Local\Temp\ipykernel_20132\1387982281.py", line 50, in Scrape
+    driver.find_elements(By.CLASS_NAME, 's-list-item-margin-right-adjustment')[-1].click()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^
+IndexError: list index out of range
+2025-03-05 04:47:31,820 INFO Data for Travel category added to All_added_books_data_temp.csv
+2025-03-05 04:47:31,853 INFO Final data file compiled
